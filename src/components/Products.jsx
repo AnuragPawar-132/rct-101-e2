@@ -1,4 +1,7 @@
 import React from "react";
+import AddProduct from "./AddProduct";
+import Product from "./Product";
+import Pagination from "./Pagination";
 
 const Products = () => {
   // TODO: Remove below const and instead import them from chakra
@@ -6,11 +9,14 @@ const Products = () => {
   const Grid = () => <div />;
 
   return (
-    <Flex>
-      {/*  AddProduct */}
-      <Grid>{/* List of Products */}</Grid>
-      {/* Pagination */}
-    </Flex>
+
+    <AddProduct />
+    
+    // <Flex>
+    //   <AddProduct />
+    //   <Grid>{/* List of Products */}</Grid>
+    //   <Pagination/>
+    // </Flex>
   );
 };
 
