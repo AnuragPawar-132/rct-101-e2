@@ -53,6 +53,7 @@ const AddProduct = () => {
         title: item.title,
         category: item.category,
         gender: item.gender,
+        imageSrc: "https://picsum.photos/seed/picsum2/421/261",
         price: item.price
       })
     }).then((res)=>res.json())

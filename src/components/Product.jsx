@@ -42,17 +42,7 @@ const Product = () => {
 export default Product;
 
 
-{/* {data.map((el)=>{
-          return <div data-cy="product">
-              <img data-cy="product-image" src={el.imageSrc}/>
-              <p data-cy="product-category">{el.category}</p>
-              <div>
-                <p data-cy="product-gender">{el.gender}</p>
-              </div>
-              <h3 data-cy="product-title">{el.title}</h3>
-              <p data-cy="product-price">{el.price}</p>
-          </div>
-      })} */}
+
 
 
 // <stack data-cy="product">
